@@ -1,3 +1,11 @@
+# About
+single-page react application for building and ordering a burger. 
+
+Url: https://react-burger-551d6.web.app/
+
+Firebase is used as backend for storing and retrieving data and for hosting the web app. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
