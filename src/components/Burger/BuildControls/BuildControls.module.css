@@ -1,0 +1,27 @@
+.BuildControls {
+    display: flex;
+    flex-flow: column;
+    background-color: indianred;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.OrderButton {
+    margin: 5px 0;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    transition: width 1s
+}
+
+.OrderButton:enabled {
+    background-color: teal;
+    color: white;
+    width: 25%;
+}

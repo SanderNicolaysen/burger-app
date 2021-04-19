@@ -1,0 +1,26 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.BuildControl Button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid skyblue;
+    cursor: pointer;
+    outline: none;
+}
+
+.BuildControl Button:hover {
+    background-color: slateblue;
+}
+
+.Label {
+    width: 80px;
+    padding: 10px;
+}
